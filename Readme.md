@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Default.aspx](./CS/ExampleE442/Default.aspx) (VB: [Default.aspx.vb](./VB/ExampleE442/Default.aspx.vb))
+* [Default.aspx.cs](./CS/ExampleE442/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ExampleE442/Default.aspx.vb))
+<!-- default file list end -->
 # Changing the ASPxGridView visibility and data binding during callbacks
 
 
