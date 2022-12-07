@@ -18,7 +18,7 @@ Partial Public Class _Default
 			ASPxGridView1.Visible = True
 		End If
 	End Sub
-	Protected Sub ASPxCallbackPanel1_Callback(ByVal source As Object, ByVal e As DevExpress.Web.ASPxClasses.CallbackEventArgsBase)
+	Protected Sub ASPxCallbackPanel1_Callback(ByVal source As Object, ByVal e As DevExpress.Web.CallbackEventArgsBase)
 		If ASPxTextBox1.Text <> "" Then
 			Session("SelectCommand") = "SELECT * FROM [authors] WHERE state='" & ASPxTextBox1.Text & "'"
 			AccessDataSource1.SelectCommand = CStr(Session("SelectCommand"))

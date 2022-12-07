@@ -16,7 +16,7 @@ public partial class _Default : System.Web.UI.Page {
             ASPxGridView1.Visible = true;
         }
     }
-    protected void ASPxCallbackPanel1_Callback(object source, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e) {
+    protected void ASPxCallbackPanel1_Callback(object source, DevExpress.Web.CallbackEventArgsBase e) {
         if(ASPxTextBox1.Text != "") {
             Session["SelectCommand"] = "SELECT * FROM [authors] WHERE state='" + ASPxTextBox1.Text + "'";
             AccessDataSource1.SelectCommand = (string)Session["SelectCommand"];
